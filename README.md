@@ -1,5 +1,18 @@
 # TS OData V4 Server
 
+> Full-featured OData V4 server for Node.js with TypeScript support, based on the OASIS Standard.
+
+![License](https://img.shields.io/github/license/cognitx-leyton/ts-odata-v4-server?style=flat-square) ![Stars](https://img.shields.io/github/stars/cognitx-leyton/ts-odata-v4-server?style=flat-square) ![TypeScript](https://img.shields.io/badge/typescript-%3E%3D4.0-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Node.js](https://img.shields.io/badge/node.js-%3E%3D14-339933?style=flat-square&logo=node.js&logoColor=white)
+
+## Table of Contents
+
+- [Features](#features)
+- [Controller Decorators](#controller-and-server-functions-parameter-injection-decorators)
+- [Example Server](#example-server)
+- [Response Example](#response-example)
+
+---
+
 TS OData V4 server for node.js and Typescript based on [odata-v4-server](https://www.npmjs.com/package/odata-v4-server)
 
 ## Features
@@ -151,3 +164,15 @@ Server.create("/odata", port).addListener("listening", () => {
   ]
 }
 ```
+
+---
+
+## License
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center">
+  <sub>Built with care by <a href="https://cognitx.leyton.com/">Leyton CognitX</a></sub>
+</p>
